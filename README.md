@@ -1,5 +1,5 @@
 # Overview
-The Reflected XSS(RXSS) Vulnerability Scanner is a tool designed to help security professionals and developers identify reflected XSS vulnerabilities in web applications. By scanning a list of URLs provided in a .txt file, this tool can efficiently detect potential security flaws that might be exploited by attackers.
+The Reflected XSS Vulnerability Scanner is a tool designed to help security professionals and developers identify reflected XSS vulnerabilities in web applications. By scanning a list of URLs provided in a .txt file, this tool can efficiently detect potential security flaws that might be exploited by attackers.
 
 # Features
 1. Efficiency: The tool scans multiple URLs concurrently, significantly reducing the time required to identify vulnerabilities.
