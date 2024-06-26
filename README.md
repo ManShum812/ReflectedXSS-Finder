@@ -46,4 +46,4 @@ go build main.go
 3. You can also use this script to find other vulnerabilities such as SQL injection (SQLi), Server-Side Request Forgery (SSRF), and Server-Side Template Injection (SSTI) by changing the custom payload accordingly.
 
 For example:
-SQL Injection (SQLi): Replace all the parameter values in the URLs in the .txt file with =1' and set the custom payload to "SQL syntax" to find SQL injection vulnerabilities.
+SQL Injection (SQLi): Replace all the parameter values in the URLs in the input.txt file with 1' and set the custom payload to "SQL syntax" to find SQL injection vulnerabilities.
