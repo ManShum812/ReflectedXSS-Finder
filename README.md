@@ -2,15 +2,24 @@
 The Reflected XSS Vulnerability Scanner is a tool designed to help security professionals and developers identify reflected XSS vulnerabilities in web applications. By scanning a list of URLs provided in a .txt file, this tool can efficiently detect potential security flaws that might be exploited by attackers.
 
 # Features
-Concurrency: Utilizes multiple workers to scan URLs concurrently, speeding up the scanning process.
+1. Efficiency: The tool scans multiple URLs concurrently, significantly reducing the time required to identify vulnerabilities.
 
-Custom Payloads: Allows you to easily specify a payload to test for XSS vulnerabilities.
+2. Customization: Users can easily modify the payload to test for various types of XSS attacks, making the tool adaptable to different testing scenarios.
 
-User-Agent Rotation: Rotates through a list of User-Agent strings to reduce detection.
+3. Reliability: With robust error handling and support for HTTP/2, the scanner ensures accurate results even in complex environments.
 
-Error Handling: Includes robust error handling and retries for HTTP/2 specific errors.
+4. Stealth: By rotating through a list of User-Agent strings, the tool mimics real browser requests, reducing the likelihood of detection during scans.
 
-Logging and Output: Logs the scanning process and saves the results in a results.txt file.
+This tool is an essential addition to any security professional's toolkit, providing a quick and effective way to improve the security posture of web applications.
+
+# Why Use This Tool?
+1. Identify Vulnerabilities: Quickly pinpoint reflected XSS vulnerabilities in your web applications before attackers do.
+
+2. Improve Security: Enhance your application's security by addressing vulnerabilities identified by the scanner.
+
+3. Save Time: Concurrent scanning and efficient HTTP request handling make the scanning process fast and effective.
+
+The Reflected XSS Vulnerability Scanner is designed to be easy to use while providing powerful capabilities to help secure your web applications.
 
 # Installation
 git clone https://github.com/ManShum812/ReflectedXSS-Finder.git
