@@ -42,8 +42,10 @@ go build main.go
 1. This script uses a custom payload ('"><12345) to test for XSS vulnerabilities. You can modify this payload as needed.
    
 2. The script includes support for HTTP/2 and rotates through a list of User-Agent strings to mimic real browser requests.
-   
-3. You can also use this script to find other vulnerabilities such as SQL injection (SQLi) by changing the custom payload accordingly.
+
+
+# Additional Capabilities: 
+You can also use this script to find other vulnerabilities such as SQL injection (SQLi) by changing the custom payload accordingly.
 
 For example:
 SQL Injection (SQLi): Replace all the parameter values in the URLs in the input.txt file with 1' and set the custom payload to "SQL syntax" to find SQL injection vulnerabilities.
