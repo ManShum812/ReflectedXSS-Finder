@@ -43,4 +43,5 @@ go build main.go
    
 2. The script includes support for HTTP/2 and rotates through a list of User-Agent strings to mimic real browser requests.
    
-3. You can also use this script to find other vulnerabilities such as SQL injection (SQLi), Server-Side Request Forgery (SSRF), and Server-Side Template Injection (SSTI) by changing the custom payload accordingly.
+3. You can also use this script to find other vulnerabilities such as SQL injection (SQLi), Server-Side Request Forgery (SSRF), and Server-Side Template Injection (SSTI) by changing the custom payload accordingly. For example:
+SQL Injection (SQLi): Replace all the parameter values in the URLs in the .txt file with =1' and set the custom payload to "SQL syntax" to find SQL injection vulnerabilities.
