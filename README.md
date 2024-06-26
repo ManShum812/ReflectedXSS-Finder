@@ -39,6 +39,8 @@ go build main.go
 
 
 # Notes
-This script uses a custom payload ('"><12345) to test for XSS vulnerabilities. You can modify this payload as needed.
-The script includes support for HTTP/2 and rotates through a list of User-Agent strings to mimic real browser requests.
-You can also use this script to find other vulnerabilities such as SQL injection (SQLi), Server-Side Request Forgery (SSRF), and Server-Side Template Injection (SSTI) by changing the custom payload accordingly.
+1. This script uses a custom payload ('"><12345) to test for XSS vulnerabilities. You can modify this payload as needed.
+   
+2. The script includes support for HTTP/2 and rotates through a list of User-Agent strings to mimic real browser requests.
+   
+3. You can also use this script to find other vulnerabilities such as SQL injection (SQLi), Server-Side Request Forgery (SSRF), and Server-Side Template Injection (SSTI) by changing the custom payload accordingly.
