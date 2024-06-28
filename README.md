@@ -29,7 +29,6 @@ cd ReflectedXSS-Finder
 go build main.go
 
 ---------------------------------------------------------------------------
-issue[https://github.com/ManShum812/ReflectedXSS-Finder/issues/1]
 
 If anyone has trouble installing the tool, feel free to follow these steps:
 
@@ -46,6 +45,8 @@ Set Permissions if needed : sudo chmod 777 main
 Create the input.txt file
 
 Run the script : ./main
+
+[https://github.com/ManShum812/ReflectedXSS-Finder/issues/1]
 
 ---------------------------------------------------------------------------
 # Running the Scanner
