@@ -50,5 +50,5 @@ You can also use this script to find other vulnerabilities such as SQL injection
 For example:
 SQL Injection (SQLi): Replace all the parameter values in the URLs in the input.txt file with 1' and set the custom payload to "SQL syntax" to find SQL injection vulnerabilities.
 
-# Contributing
-Feel free to contribute to this project by opening issues or submitting pull requests. If you have any ideas to make the tool better, let me know. Let's make the web a safer place together!
+# Get Involved
+Your contributions are welcome! You can help improve this project by opening issues or submitting pull requests. If you have any ideas to enhance the tool, please share them. Together, we can make the web a safer place!
