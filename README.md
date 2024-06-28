@@ -29,6 +29,7 @@ cd ReflectedXSS-Finder
 go build main.go
 
 ---------------------------------------------------------------------------
+issue[https://github.com/ManShum812/ReflectedXSS-Finder/issues/1]
 
 If anyone has trouble installing the tool, feel free to follow these steps:
 
