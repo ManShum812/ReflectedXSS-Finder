@@ -28,6 +28,8 @@ cd ReflectedXSS-Finder
 
 go build main.go
 
+---------------------------------------------------------------------------
+
 If anyone has trouble installing the tool, feel free to follow these steps:
 
 Clone the Repository : git clone https://github.com/ManShum812/ReflectedXSS-Finder.git
@@ -44,6 +46,7 @@ Create the input.txt file
 
 Run the script : ./main
 
+---------------------------------------------------------------------------
 # Running the Scanner
 1. Prepare Input File: Create a file named input.txt with the URLs you want to scan, one per line.
    
