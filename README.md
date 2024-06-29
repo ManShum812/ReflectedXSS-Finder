@@ -3,7 +3,9 @@ The Reflected XSS Vulnerability Scanner is a tool designed to help security prof
 
 It's important to note that there is no scanner in the world that is 100% accurate; ultimately, you still need to reproduce the vulnerability manually. This script simply helps detect which parameter values in the URLs lack input validation and may be vulnerable to reflected XSS.
 
-Inspired by projectdiscovery nuclei XSS template[https://github.com/projectdiscovery/nuclei-templates/blob/main/dast/vulnerabilities/xss/reflected-xss.yaml]
+Inspired by projectdiscovery nuclei XSS template
+
+[https://github.com/projectdiscovery/nuclei-templates/blob/main/dast/vulnerabilities/xss/reflected-xss.yaml]
 
 # Features
 1. Efficiency: The tool scans multiple URLs concurrently, significantly reducing the time required to identify vulnerabilities.
