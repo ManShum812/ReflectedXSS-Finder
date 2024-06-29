@@ -1,7 +1,7 @@
 # Overview
 The Reflected XSS Vulnerability Scanner is a tool designed to help security professionals and developers identify reflected XSS vulnerabilities in web applications. By scanning a list of URLs provided in a .txt file, this tool can efficiently detect potential security flaws that might be exploited by attackers.
 
-It's important to note that no scanner in the world is 100% accurate; ultimately, you still need to reproduce the vulnerability manually to create the proof of concept (PoC). This script simply helps detect which parameter values in the URLs lack input validation and may be vulnerable to reflected XSS.
+It's important to note that no vulnerability scanner is 100% accurate; ultimately, you still need to reproduce the vulnerability manually to create the proof of concept (PoC). This script simply helps detect which parameter values in the URLs lack input validation and may be vulnerable to reflected XSS.
 
 Inspired by projectdiscovery nuclei XSS template
 
