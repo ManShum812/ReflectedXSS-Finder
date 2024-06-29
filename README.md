@@ -5,7 +5,7 @@ It's important to note that there is no scanner in the world that is 100% accura
 
 Inspired by projectdiscovery nuclei XSS template
 
-[https://github.com/projectdiscovery/nuclei-templates/blob/main/dast/vulnerabilities/xss/reflected-xss.yaml]
+https://github.com/projectdiscovery/nuclei-templates/blob/main/dast/vulnerabilities/xss/reflected-xss.yaml
 
 # Features
 1. Efficiency: The tool scans multiple URLs concurrently, significantly reducing the time required to identify vulnerabilities.
